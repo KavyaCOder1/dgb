@@ -375,7 +375,7 @@ bot.hears('👥 Referrals', async (ctx)=>{
         if(ctx.message.chat.type != 'private'){
             return
         }
-        ctx.replyWithPhoto('https://graph.org/file/188804b169decf067319b.jpg',{caption:"*🎁For A Limited Time, Join "+admin[0].cur+" Coin Airdrop And Get Free "+admin[0].cur+" As A Gift 🎁\n\n🎉 Join Link:\nt.me/"+bot.botInfo.username+"?start="+ctx.from.id+"*",parse_mode:'markdown'})
+        ctx.replyWithPhoto('https://graph.org/file/829ce75aff6e9387f3523.jpg',{caption:"*🎁For A Limited Time, Join "+admin[0].cur+" Coin Airdrop And Get Free "+admin[0].cur+" As A Gift 🎁\n\n🎉 Join Link:\nt.me/"+bot.botInfo.username+"?start="+ctx.from.id+"*",parse_mode:'markdown'})
         let botstat = admin[0].botstat
         if (botstat != 'Active'){
             ctx.replyWithMarkdown('*⛔ Currently Bot Is Under Maintenance*')
